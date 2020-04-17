@@ -16,12 +16,18 @@
 	overflow-x: hidden;
 }
 #recur{
-	background: #A9A9A9;
+	background: #DBD7D7;
 	overflow-x: hidden;
 }
 
 footer p a {
 	margin: 5px 15px;
+    color: lightseagreen;
+   
+    
+}
+footer a {
+    color:#008B8B;
 }
 
 @media only screen and (max-width: 767px){
@@ -31,4 +37,12 @@ footer p a {
 	.texto-top h1{font-size: 35px; text-align: center;}
 	.texto-top p{text-align: center;}
 	.plataformas{text-align: center;}
+}
+
+/* WHATSAPP FIXO */
+.whatsapp-fixo {
+position: fixed;
+bottom:10px;
+left:10px;
+z-index: 999;
 }
