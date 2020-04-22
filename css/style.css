@@ -4,6 +4,13 @@
 }
 
 
+#portifolio{
+    background:rgba(199, 94, 28, 0.92);
+    color: white;
+    overflow: hidden;
+}
+
+
 #home{
 	background: #DBD7D7;
     color: Black;
@@ -22,7 +29,7 @@
 
 footer p a {
 	margin: 5px 15px;
-    color: lightseagreen;
+    color: #008B8B;
    
     
 }
@@ -45,4 +52,11 @@ position: fixed;
 bottom:10px;
 left:10px;
 z-index: 999;
+
+}
+
+.whatsapp:hover {
+    color: aqua;
+    background-color: aqua;
+    box-shadow: 0 0 10px #00FFFF. 0 0 40px #00FFFF, 0 0 80px #00FFFF;
 }
